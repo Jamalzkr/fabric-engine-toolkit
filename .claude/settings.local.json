@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python C:\\\\Users\\\\jzakaria\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jzakaria-AppData-Roaming-Claude-scratch-workspaces-7445a83a-8066-4211-890b-21bb6120a9d8-d112de9b-afab-4f89-a2bd-35979f7390e5-scratch-2026-09-30-155d63\\\\f22cab20-15b1-4504-922a-54ff996f4ed8\\\\scratchpad\\\\test_filtered.py 2>&1)",
+      "PowerShell(Get-Process python -ErrorAction SilentlyContinue | Where-Object {$_.ProcessName -eq 'python'} | Stop-Process -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 2; cd C:\\\\Projects\\\\fabric-engine-tool; python -m streamlit run app.py --server.port=8501 2>&1 | Write-Host)",
+      "PowerShell(head -20)",
+      "PowerShell(python C:\\\\Users\\\\jzakaria\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jzakaria-AppData-Roaming-Claude-scratch-workspaces-7445a83a-8066-4211-890b-21bb6120a9d8-d112de9b-afab-4f89-a2bd-35979f7390e5-scratch-2026-09-30-155d63\\\\f22cab20-15b1-4504-922a-54ff996f4ed8\\\\scratchpad\\\\test_fields.py 2>&1)",
+      "WebFetch(domain:extreme-networks.my.site.com)",
+      "PowerShell(Get-Process python -ErrorAction SilentlyContinue | Where-Object { $_.ProcessName -eq 'python' } | Select-Object -First 1 | Stop-Process -Force; Start-Sleep 1)"
+    ]
+  }
+}
